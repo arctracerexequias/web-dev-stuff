@@ -1,0 +1,157 @@
+div.header{
+	width: 100%;
+	height: 50px;
+	border: 1px solid #2b2b2b;
+	text-align: center;
+	background-color: silver;
+	position: relative;
+	font-size: 15px;
+}
+
+button.btn{
+	height: 50px;
+	width: 100px;
+	background-color: aqua;
+}
+
+input[type="text"]{
+	padding: 4px 8px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(255, 255, 255, 0.4);
+	height: 2rem;
+}
+
+div.registerMain{
+	margin: 0px auto;
+	padding: 32px 16px;
+	max-width: 894px;
+	min-width: 320px;
+}
+
+div.First{
+	padding: 4px 8px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(255, 255, 255, 0.4);
+	height: 2rem;
+}
+
+div.form{
+	margin-bottom: 12px;
+	width: 37.5%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+label.text{
+	font-weight: 600;
+	font-size: 0.9375rem;
+	line-height: 1.25rem;
+	padding-bottom: 0.227px;
+	padding-top: 0.227px;
+}
+fieldset{
+	padding: 0px;
+	margin: 0px;
+	border: 0px none;
+	min-width: 0px;
+}
+
+div.row{
+	margin-left: -2px; 
+	margin-right: -2px;
+}
+
+div.container{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+div.Display{
+	display: block;
+	opacity: 1;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+div.registerSub{
+	font-weight: 200;
+	font-size: 2.125rem;
+	line-height: 2.5rem;
+	padding-bottom: 3.1812rem;
+	padding-top: 3.1812rem;
+}
+
+div.main{
+	height: 900px;
+	width: 100%;
+	border: 1px solid #2b2b2b;
+	background-color: #eaeaea; 
+}
+
+div.navigation{
+	height: 50px;
+	background-color: aqua;
+	border-bottom: 1px solid #eaeaea;
+	border-right:  1px solid aqua;
+}
+
+footer.footer{
+	width: 100%;
+	height: 80px;
+	border: 1px solid black;
+	background-color: #aaaaaa;
+	text-align: center;
+	font-size: 20px;
+}
+body{
+	font-family: "Aller";
+	background: url(BG.png) 0 50% no-repeat;
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+	color: black;
+}
+
+ul li{
+	list-style: none;
+}
+
+div.sort{
+	height:70%;
+	width:34.5%;
+	margin-top:3%;
+	float:right;
+}
+
+div.mainLol{
+	height:500px;
+	width:100%;
+	margin-top:5px;
+	display:inline-block;
+}
+
+img.wew{
+	margin-left:30px;
+	margin-top:10px;
+}
+
+div.mainLol2{
+	height:70%;
+	width:65%;
+	margin-top:3%;
+	float:left;
+}

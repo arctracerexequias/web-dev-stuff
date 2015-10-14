@@ -1,0 +1,1 @@
+CREATE TABLE `dbadprog`.`tblClassification` ( `strClasCode` VARCHAR(64) NULL DEFAULT NULL , `strClasName` VARCHAR(64) NULL DEFAULT NULL , PRIMARY KEY (`strClasCode`(64)) , UNIQUE (`strClasName`) ) ENGINE = InnoDB;

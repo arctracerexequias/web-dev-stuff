@@ -1,0 +1,53 @@
+<html>
+	<style>
+		#table_size
+		{
+			height:25;
+		}
+	</style>
+	<head>
+		<title>
+			Calculator Design
+		</title>
+	</head>
+	<body>
+	<table border="2" width = "500" height="500">
+		<form name = 'calculator' method = 'post'>
+		<tr>
+			<td>
+			<center>
+				<div>
+					<input type = "text" name = "answer" maxlength="100" size = "17" style = "height:50; width:400; font-family:Verdana; font-size:30;"/>
+				</div>
+				<br>
+					<div>
+						<input type ="button" name = "one" value = "1" onClick = "document.calculator.answer.value+='1'" style = "width:100;height:100;font-size:50"/>
+						<input type ="button" name = "two" value = "2" onClick = "document.calculator.answer.value+='2'" style = "width:100;height:100;font-size:50"/>
+						<input type ="button" name = "three" value = "3" onClick = "document.calculator.answer.value+='3'" style = "width:100;height:100;font-size:50"/>
+						<input type ="button" name = "division" value = "/" onClick = "document.calculator.answer.value+='/'" style = "width:100;height:100;font-size:50"/>
+					</div>
+					<div>
+						<input type ="button" name = "four" value = "4" onClick = "document.calculator.answer.value+='4'" style = "width:100;height:100;font-size:50"/>
+						<input type ="button" name = "five" value = "5" onClick = "document.calculator.answer.value+='5'" style = "width:100;height:100;font-size:50"/>
+						<input type ="button" name = "six" value = "6" onClick = "document.calculator.answer.value+='6'" style = "width:100;height:100;font-size:50"/>
+						<input type ="button" name = "plus" value = "+" onClick = "document.calculator.answer.value+='+'" style = "width:100;height:100;font-size:50"/>
+					</div>
+					<div>
+						<input type ="button" name = "seven" value = "7" onClick = "document.calculator.answer.value+='7'" style = "width:100;height:100;font-size:50"/>
+						<input type ="button" name = "eight" value = "8" onClick = "document.calculator.answer.value+='8'" style = "width:100;height:100;font-size:50"/>
+						<input type ="button" name = "nine" value = "9" onClick = "document.calculator.answer.value+='9'" style = "width:100;height:100;font-size:50"/>
+						<input type ="button" name = "times" value = "*" onClick = "document.calculator.answer.value+='*'" style = "width:100;height:100;font-size:50"/>
+					</div>
+					<div>
+						<input type ="reset" name = "reset" value = "C" onClick = "document.calculator.answer.value+=''" style = "width:100;height:100;font-size:50"/>
+						<input type ="button" name = "zero" value = "0" onClick = "document.calculator.answer.value+='0'" style = "width:100;height:100;font-size:50"/>
+						<input type ="button" name = "equal" value = "=" onClick = "document.calculator.answer.value=eval(document.calculator.answer.value)" style = "width:100;height:100;font-size:50"/>
+						<input type ="button" name = "subtract" value = "-" onClick = "document.calculator.answer.value+='-'" style = "width:100;height:100;font-size:50"/>			
+					</div>
+				</form>
+			</center>
+			</td>
+		</tr>
+	</table>
+	</body>
+</html>

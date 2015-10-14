@@ -1,0 +1,87 @@
+a{
+	text-decoration: none;
+}
+body.pupmap{
+	background-image: url("pup.jpg");
+	background-size: auto;
+	font-family: Helvetica;
+	font-size: 90px;
+	color: teal;
+}
+body.chapel{
+	background-image: url("pup_chapel.jpg");
+	background-size: 1024px, 600px;
+	font-size: 20px;
+	font-family: Courier;
+	color: black;
+}
+body.alumni{
+	background-image: url("alumni2.jpg");
+	background-size: 1024px, 600px;
+	font-size: 20px;
+	font-family: Courier;
+	color: black;
+}
+body.south{
+	background-image: url("pup_south.jpg");
+	background-size: 1024px, 600px;
+	font-size: 20px;
+	font-family: Courier;
+	color: black;
+}
+body.main{
+	background-image: url("pup.jpg");
+	background-size: 1024px, 600px;
+	font-size: 20px;
+	font-family: Courier;
+	color: black;
+}
+body.pool{
+	background-image: url("pool2.jpg");
+	background-size: 1024px, 600px;
+	font-size: 20px;
+	font-family: Courier;
+	color: black;
+}
+body.sampaguita{
+	background-image: url("pup_chapel.jpg");
+	background-size: 1024px, 600px;
+	font-size: 20px;
+	font-family: Courier;
+	color: black;
+}
+body.pe{
+	background-image: url("PEBuilding1.png");
+	font-size: 20px;
+	font-family: Courier;
+	color: black;
+}
+body.lagoon{
+	background-image: url("lagoon2.jpg");
+	background-size: 1024px, 600px;
+	font-size: 20px;
+	font-family: Courier;
+	color: black;
+}
+body.gym{
+	background-image: url("Gymnasium.jpg");
+	background-size: 1024px, 600px;
+	background-size: 1024px, 600px;
+	font-size: 20px;
+	font-family: Courier;
+	color: black;
+}
+body.oval{
+	background-image: url("oval2.jpg");
+	background-size: 1024px, 600px;
+	font-size: 20px;
+	font-family: Courier;
+	color: black;
+}
+body.obelisk{
+	background-image: url("obelisk1.jpg");
+	background-size: 1024px, 600px;
+	font-size: 20px;
+	font-family: Courier;
+	color: black;
+}		
